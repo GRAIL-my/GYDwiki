@@ -100,4 +100,267 @@ footer {
 
 }
 
+@media screen and (max-width: 1024px) {
+    .navbar {
+        height: 24.96vw;
+        gap: 40vw;
+        box-shadow: 0 0.104vw 0.26vw rgba(0,0,0,0.1);
+    }
+    .logo{
+        height: 23.04vw;
+    }
+    .nav-links {
+        left: -5vw;
+        gap: 5vw;
+    }
+    .nav-item {
+        font-size: 1.042vw;
+        letter-spacing: 0.104vw;
+        padding: 0.417vw 0.781vw;
+        border-radius: 0.26vw;
+    }
+    footer {
+        padding: 1.042vw 0;
+        margin-top: 2.604vw;
+        border-top: 0.052vw solid #e9ecef;
+    }
+    .footer-img-container {
+        max-width: 62.5vw;
+        gap: 1.563vw;
+        padding: 0 1.042vw;
+    }
+    .footer-img {
+        height: 3.125vw;
+    }
+    .footer-text {
+        margin-top: 0.781vw;
+        font-size: 0.729vw;
+    }
+    .bigtitle {
+        margin-top:19.2vw;
+    }
+    .cow{
+        top:19.2vw;
+        height: 134.4vw;
+    }
+    .map {
+        top:-9.6vw;
+        left: -35vw;
+    }
+    .title{
+        left: -90vw;
+        top:9.6vw;
+        font-size: 3.125vw;
+    }
+    .what{
+        width: 80vw;
+        height: 96vw;
+        left: 10vw;
+        gap:9.6vw;
+        border-radius: 1.042vw;
+        box-shadow: 0 0.104vw 0.26vw rgba(0,0,0,0.1);
+    }
+    .whatt{
+        top:5.76vw;
+        font-size: 2.344vw;
+    }
+    .whatc{
+        font-size: 1.563vw;
+        word-spacing: 0.521vw;
+        border-radius: 0.781vw;
+        padding: 0.781vw;
+    }
+    .htut1{
+        left: -12vw;
+        top:7.68vw;
+        font-size: 2.865vw;
+    }
+    .htut2{
+        top: 32.64vw;
+        left: -28vw;
+        font-size: 3.646vw;
+    }
+    .htutbg{
+        width: 150vw;
+        height: 76.8vw;
+        top:76.8vw;
+        left: -60vw;
+        border-radius: 15.625vw;
+        box-shadow: 0 0.104vw 0.26vw #2A3B4C;
+    }
+    .damt{
+        width: 25vw;
+        height: 25vw;
+        border-radius: 20vw;
+        font-size: 2.604vw;
+        line-height: 7vw;
+        left: 73vw;
+        top:-13.44vw;
+        box-shadow: 0 0 1.042vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    .damc-container{
+        width: 90vw;
+        gap: 5vw;
+        left: 5vw;
+        top: -38.4vw;
+    }
+    .damcleadin{
+        font-size: 2.083vw;
+        top:-57.6vw;
+        left:2vw;
+    }
+    .damc1 {
+        width: 15vw;
+        height: 15vw;
+        max-width: 15vw;
+        max-height: 15vw;
+        border-radius: 50%;
+        background-size: 25vw 28vw;
+        font-size: 1.823vw;
+        box-shadow: 0 0 1.042vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    span{
+        top:9.6vw;
+    }
+    .damc2 {
+        width: 15vw;
+        height: 15vw;
+        max-width: 15vw;
+        max-height: 15vw;
+        border-radius: 50%;
+        background-size: 30vw 22vw;
+        font-size: 1.823vw;
+        top:19.2vw;
+        box-shadow: 0 0 1.042vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    .damc3 {
+        width: 15vw;
+        height: 15vw;
+        max-width: 15vw;
+        max-height: 15vw;
+        border-radius: 50%;
+        background-size: 25vw 28vw;
+        font-size: 1.823vw;
+        box-shadow: 0 0 1.042vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    .damc4 {
+        width: 15vw;
+        height: 15vw;
+        max-width: 15vw;
+        max-height: 15vw;
+        border-radius: 50%;
+        background-size: 25vw 28vw;
+        font-size: 1.823vw;
+        top:19.2vw;
+        box-shadow: 0 0 1.042vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    .output{
+        gap: 5vw;
+    }
+    .opt{
+        width: 25vw;
+        height: 25vw;
+        border-radius: 20vw;
+        font-size: 2.344vw;
+        line-height: 5vw;
+        left: 2vw;
+        top:-13.44vw;
+        box-shadow: 0 0 1.042vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    .opct{
+        width: 65vw;
+        height: 38.4vw;
+        font-size: 1.302vw;
+        line-height: 1.8;
+        border-radius: 0.521vw;
+        box-shadow: 0 0 0.521vw 0.417vw rgba(255, 255, 255, 0.8) inset;
+    }
+    .opcp {
+      width: 100vw;
+      height: 57.6vw;
+      margin-top: 3.84vw;
+      border-radius: 0.417vw;
+    }
+    .opcp::before, .opcp::after {
+      width: 1.042vw;
+      background-size: 1.042vw 1.667vw;
+    }
+    .opcp .film-strip {
+      left: 1.042vw;
+      width: calc(100% - 40px);
+      height: 80%;
+      gap: 0.521vw;
+    }
+    .opcp .film-strip img {
+      width: 10.417vw;
+      height: 100%;
+      border: 0.104vw solid #333;
+      border-radius: 0.208vw;
+    }
+    .title{
+        font-size: 3.125vw;
+        top:38.4vw;
+        margin-left: 10vw;
+    }
+    .card {
+      width: 80%;
+      height: 21.875vw;
+      border: 0.052vw solid #e0e0e0;
+      border-radius: 0.417vw;
+      padding: 1.042vw;
+      box-shadow: 0 0.104vw 0.417vw rgba(0, 0, 0, 0.1);
+      top: 38.4vw;
+      margin: 1.042vw auto;
+    }
+    .cardc {
+      margin-right: 1.302vw;
+      font-size: 1.563vw;
+      line-height: 1.6;
+    }
+    .ap {
+      width: 16.667vw;
+      height: 16.667vw;
+      border-radius: 50%;
+      border: 0.104vw solid #f0f0f0;
+    }
+    .if1{
+        gap: 5vw;
+    }
+    .polarbear{
+        width: 35vw;
+        top:38.4vw;
+    }
+    .q{
+        font-size: 2.604vw;
+        top: 96vw;
+    }
+    .if2{
+        gap: 5vw;
+    }
+    .penguin{
+        width: 25vw;
+        top:38.4vw;
+        left:20vw;
+    }
+    .a{
+        font-size: 2.604vw;
+        top: 96vw;
+        left: 10vw;
+    }
+    .contact{
+        top:28.8vw;
+        padding-bottom: 19.2vw;
+    }
+    .Welcome{
+        font-size: 2.083vw;
+        top: 38.4vw;
+    }
+    .finger{
+        width: 10vw;
+    }
+    .email{
+        width: 20vw;
+    }
+}
+
 
