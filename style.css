@@ -100,3 +100,364 @@ footer {
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    height: 10vh;
+    gap: 15vw;
+  }
+  .logo {
+    height: 9vh;
+  }
+  .nav-item {
+    font-size: 18px;
+    padding: 6px 12px;
+    letter-spacing: 1px;
+  }
+  .bigtitle {
+    padding: 0 20px;
+  }
+  .cow, .map {
+    max-width: 40%;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .whatt {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .whatc {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+  .htut1 {
+    font-size: 20px;
+  }
+  .htut2 {
+    font-size: 24px;
+  }
+  .damt {
+    font-size: 20px;
+    margin: 15px 0 10px;
+    padding: 0 20px;
+  }
+  .damcleadin {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .damc-container {
+    gap: 10px;
+    padding: 0 20px;
+  }
+  .damc1, .damc2, .damc3, .damc4 {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+  .opt {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  .opct {
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+  .film-strip img {
+    width: 80px;
+    height: auto;
+  }
+  .title {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .cardc {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 60%;
+  }
+  .ap {
+    max-width: 30%;
+    height: auto;
+  }
+  .if {
+    margin: 30px 0;
+    padding: 0 20px;
+  }
+  .if1, .if2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  .polarbear, .penguin {
+    max-width: 80px;
+    height: auto;
+  }
+  .q, .a {
+    font-size: 18px;
+  }
+  .contact {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .Welcome {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .finger, .email {
+    max-width: 100px;
+    height: auto;
+  }
+  .footer-img {
+    height: 50px;
+  }
+  .footer-img-container {
+    gap: 20px;
+    padding: 0 15px;
+  }
+  .footer-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 8vh;
+    gap: 5vw;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  .logo {
+    height: 7vh;
+    margin-left: 5px;
+  }
+  .nav-links {
+    gap: 2vw;
+    left: 0;
+  }
+  .nav-item {
+    font-size: 14px;
+    padding: 4px 8px;
+    letter-spacing: 0;
+  }
+  .nav-item:hover {
+    background-color: inherit;
+    color: #2A3B4C;
+  }
+  .content {
+    margin-top: 8vh;
+    padding: 0 10px;
+  }
+  .bigtitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .cow, .map {
+    max-width: 45%;
+  }
+  .title {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .whatt {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .whatc {
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: normal;
+  }
+  .htut {
+    margin-top: 20px;
+  }
+  .htut1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .htut2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .giraffe {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  .damt {
+    font-size: 18px;
+    margin: 15px 0 10px;
+    text-align: center;
+  }
+  .damcleadin {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .damc-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .damc1, .damc2, .damc3, .damc4 {
+    width: 45%;
+    padding: 6px 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .opt {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .opct {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .film-strip {
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+  .film-strip img {
+    width: 70px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  .title {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  .cardc {
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 100%;
+    text-align: center;
+  }
+  .ap {
+    max-width: 60%;
+    height: auto;
+  }
+  .if {
+    margin: 20px 0;
+    padding: 0 10px;
+  }
+  .if1, .if2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .polarbear, .penguin {
+    max-width: 60px;
+    height: auto;
+  }
+  .q, .a {
+    font-size: 16px;
+    width: 100%;
+  }
+  .contact {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .Welcome {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .finger, .email {
+    max-width: 80px;
+    height: auto;
+  }
+  .footer-img {
+    height: 40px;
+  }
+  .footer-img-container {
+    gap: 15px;
+    padding: 0 10px;
+  }
+  .footer-text {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  footer {
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    height: 7vh;
+  }
+  .logo {
+    height: 6vh;
+  }
+  .nav-item {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .whatt {
+    font-size: 18px;
+  }
+  .whatc {
+    font-size: 13px;
+  }
+  .htut2 {
+    font-size: 18px;
+  }
+  .damc1, .damc2, .damc3, .damc4 {
+    width: 100%;
+  }
+  .film-strip img {
+    width: 60px;
+  }
+  .cardc {
+    font-size: 13px;
+  }
+  .ap {
+    max-width: 70%;
+  }
+  .q, .a {
+    font-size: 14px;
+  }
+  .Welcome {
+    font-size: 16px;
+  }
+  .finger, .email {
+    max-width: 70px;
+  }
+  .footer-img {
+    height: 35px;
+  }
+  .footer-img-container {
+    gap: 10px;
+  }
+}
+
+
