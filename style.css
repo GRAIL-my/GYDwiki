@@ -100,39 +100,37 @@ footer {
 
 }
 
+/* 手机端（≤768px）适配 */
 @media (max-width: 768px) {
-  .navbar {
-    height: auto;
-    padding: 10px 15px;
-    gap: 0;
-    justify-content: space-between;
-  }
-  .logo { height: 60px; }
-  .nav-item { font-size: 14px; padding: 5px 8px; }
-  body { padding-top: 80px; overflow-x: hidden; }
-  img { max-width: 100%; height: auto; }
-  .content { padding: 0 10px; }
-  .footer-img-container { gap: 10px; }
-  .footer-img { height: 40px; }
+    .content { 
+        transform: scale(calc(100vw / 768));
+        transform-origin: top left;
+        width: 768px;
+        min-height: 100vh;
+    }
+    * { box-sizing: border-box; }
+    body { overflow-x: hidden; padding-top: 13vh; }
+    img { max-width: 100%; height: auto; }
+    .navbar { height: auto; padding: 10px 20px; gap: 0; }
+    .logo { height: 8vh; max-height: 60px; }
+    .nav-item { font-size: clamp(14px, 2vw, 20px); }
 }
 
+/* 平板端（769-1024px）适配 */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .navbar {
-    height: auto;
-    padding: 10px 20px;
-    gap: 10vw;
-  }
-  .logo { height: 80px; }
-  .nav-item { font-size: 16px; }
-  body { padding-top: 100px; overflow-x: hidden; }
-  img { max-width: 100%; height: auto; }
-  .content { padding: 0 20px; }
-  .footer-img-container { gap: 20px; }
-  .footer-img { height: 50px; }
+    .content { 
+        transform: scale(calc(100vw / 1024));
+        transform-origin: top left;
+        width: 1024px;
+        min-height: 100vh;
+    }
+    * { box-sizing: border-box; }
+    body { overflow-x: hidden; padding-top: 13vh; }
+    img { max-width: 100%; height: auto; }
+    .navbar { height: auto; padding: 10px 20px; gap: 10vw; }
+    .logo { height: 8vh; max-height: 80px; }
+    .nav-item { font-size: clamp(16px, 2vw, 20px); }
 }
 
-@media (min-width: 1025px) {
-  
-}
 
 
