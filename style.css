@@ -103,100 +103,101 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
   * {
     box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  body, .container, .main {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+  html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  /* 所有块级元素宽度100%，避免溢出 */
+  body > div, section, article, main, header, footer {
     width: 100% !important;
     max-width: 100% !important;
+    padding: 15px !important;
   }
-  h1 { font-size: 30px !important; }
-  h2 { font-size: 26px !important; }
-  h3 { font-size: 22px !important; }
-  p, div, span { font-size: 17px !important; }
-  button, a.btn, .nav-item {
+  /* 字体等比例缩放 */
+  h1 { font-size: 30px !important; line-height: 1.2 !important; }
+  h2 { font-size: 26px !important; line-height: 1.2 !important; }
+  h3 { font-size: 22px !important; line-height: 1.2 !important; }
+  p, a, span, li, td, th { font-size: 17px !important; line-height: 1.5 !important; }
+  /* 按钮/链接交互元素 */
+  button, a {
     min-height: 45px !important;
     min-width: 80px !important;
     padding: 11px 15px !important;
+    display: inline-block !important;
   }
-  .sidebar, .col, .grid-item {
+  /* 多列布局改为双列 */
+  div[style*="float"], div[class*="col"], div[class*="grid"] {
     width: 50% !important;
     float: left !important;
-    margin: 0 0 16px 0 !important;
+    margin-bottom: 16px !important;
   }
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-  }
-  table {
-    width: 100% !important;
-    display: block !important;
-    overflow-x: auto !important;
-  }
+  /* 图片/表格适配 */
+  img { max-width: 100% !important; height: auto !important; display: block !important; }
+  table { width: 100% !important; display: block !important; overflow-x: auto !important; }
 }
 
 /* 手机适配 (≤768px) */
 @media (max-width: 768px) {
   * {
     box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  body, .container, .main {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+  html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  /* 所有块级元素宽度100%，避免溢出 */
+  body > div, section, article, main, header, footer {
     width: 100% !important;
     max-width: 100% !important;
+    padding: 10px !important;
   }
-  h1 { font-size: 26px !important; }
-  h2 { font-size: 22px !important; }
-  h3 { font-size: 20px !important; }
-  p, div, span { font-size: 15px !important; }
-  button, a.btn, .nav-item {
+  /* 字体等比例缩放 */
+  h1 { font-size: 26px !important; line-height: 1.2 !important; }
+  h2 { font-size: 22px !important; line-height: 1.2 !important; }
+  h3 { font-size: 20px !important; line-height: 1.2 !important; }
+  p, a, span, li, td, th { font-size: 15px !important; line-height: 1.5 !important; }
+  /* 按钮/链接交互元素 */
+  button, a {
     min-height: 42px !important;
     min-width: 75px !important;
     padding: 9px 13px !important;
+    display: inline-block !important;
   }
-  .sidebar, .col, .grid-item {
+  /* 所有列布局改为单列 */
+  div[style*="float"], div[class*="col"], div[class*="grid"] {
     width: 100% !important;
     float: none !important;
-    margin: 0 0 12px 0 !important;
+    margin-bottom: 12px !important;
   }
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-  }
-  table {
-    width: 100% !important;
-    display: block !important;
-    overflow-x: auto !important;
-  }
-  *:hover {
-    background: inherit !important;
-    color: inherit !important;
-  }
-  button:active, a.btn:active {
-    background: #f0f0f0 !important;
-  }
+  /* 图片/表格适配 */
+  img { max-width: 100% !important; height: auto !important; display: block !important; }
+  table { width: 100% !important; display: block !important; overflow-x: auto !important; }
+  /* 移除hover，添加active反馈 */
+  *:hover { background: inherit !important; color: inherit !important; }
+  button:active, a:active { background: #f0f0f0 !important; }
 }
 
-/* 小屏手机适配 (≤375px，如iPhone SE) */
+/* 小屏手机适配 (≤375px) */
 @media (max-width: 375px) {
   * {
     box-sizing: border-box !important;
   }
-  body, .container, .main {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+  /* 缩减内边距和字体 */
+  body > div, section, article, main, header, footer {
+    padding: 8px !important;
   }
   h1 { font-size: 22px !important; }
   h2 { font-size: 18px !important; }
   h3 { font-size: 16px !important; }
-  p, div, span { font-size: 14px !important; }
-  button, a.btn, .nav-item {
+  p, a, span, li, td, th { font-size: 14px !important; }
+  button, a {
     min-height: 40px !important;
     min-width: 70px !important;
     padding: 8px 12px !important;
-  }
-  .sidebar, .col, .grid-item {
-    margin: 0 0 10px 0 !important;
   }
 }
