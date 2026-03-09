@@ -1,5 +1,8 @@
 /* style */
-* { box-sizing: border-box; } 
+* { box-sizing: border-box; }
+
+img { max-width: 100%; height: auto; }
+
 body{
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -96,3 +99,4 @@ footer {
     font-size: 14px;
 
 }
+
