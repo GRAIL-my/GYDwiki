@@ -106,197 +106,173 @@ footer {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .navbar {
-    height: calc(10vh * 0.95); /* 按比例微调高度 */
-    gap: 8vw; /* 15vw × 0.533 ≈ 8vw，1:1比例 */
+    height: 0.9259vw;
+    gap: 0.7813vw;
     display: flex;
     align-items: center;
-    width: 100vw; /* 占满视口宽度，保持1:1 */
   }
   .logo {
-    height: calc(9vh * 0.95);
-    width: auto; /* 宽高1:1比例 */
+    height: 0.8333vw;
   }
   .nav-item {
-    font-size: calc(18px * 0.533); /* 18×0.533≈9.6→10px */
-    padding: calc(6px * 0.533) calc(12px * 0.533); /* 3px 6px */
-    letter-spacing: calc(1px * 0.533);
-    min-height: calc(44px * 0.533); /* 23.4→23px */
+    font-size: 0.0938vw;
+    padding: 0.0313vw 0.0625vw;
+    letter-spacing: 0.0052vw;
+    min-height: 0.2292vw;
     display: inline-flex;
     align-items: center;
   }
   .bigtitle {
-    padding: 0 calc(20px * 0.533); /* 0 10.7→11px */
-    width: 100vw;
+    padding: 0 0.1042vw;
   }
   .cow, .map {
-    max-width: 40vw; /* 按视口宽度1:1 */
-    height: auto; /* 保持宽高1:1 */
-    aspect-ratio: 1/1; /* 强制1:1长宽比 */
+    max-width: 0.2083vw;
+    height: auto;
   }
   .title {
-    font-size: calc(30px * 0.533); /* 30×0.533≈16px */
+    font-size: 0.1563vw;
     line-height: 1.3;
     text-align: center;
-    margin: calc(20px * 0.533) 0; /* 10.7→11px 0 */
-    width: 100vw;
+    margin: 0.1042vw 0;
   }
   .whatt {
-    font-size: calc(24px * 0.533); /* 24×0.533≈13px */
-    margin-bottom: calc(15px * 0.533); /* 8px */
+    font-size: 0.1250vw;
+    margin-bottom: 0.0781vw;
   }
   .whatc {
-    font-size: calc(16px * 0.533); /* 8.5→9px */
+    font-size: 0.0833vw;
     line-height: 1.5;
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    padding: 0 0.1042vw;
   }
   .htut1 {
-    font-size: calc(20px * 0.533); /* 10.7→11px */
+    font-size: 0.1042vw;
   }
   .htut2 {
-    font-size: calc(24px * 0.533); /* 13px */
+    font-size: 0.1250vw;
   }
   .damt {
-    font-size: calc(20px * 0.533); /* 11px */
-    margin: calc(15px * 0.533) 0 calc(10px * 0.533); /* 8px 0 5px */
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    font-size: 0.1042vw;
+    margin: 0.0781vw 0 0.0521vw;
+    padding: 0 0.1042vw;
   }
   .damcleadin {
-    font-size: calc(16px * 0.533); /* 9px */
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    font-size: 0.0833vw;
+    padding: 0 0.1042vw;
   }
   .damc-container {
-    gap: calc(10px * 0.533); /* 5px */
-    padding: 0 calc(20px * 0.533); /* 0 11px */
+    gap: 0.0521vw;
+    padding: 0 0.1042vw;
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
   }
   .damc1, .damc2, .damc3, .damc4 {
-    padding: calc(8px * 0.533) calc(12px * 0.533); /* 4px 6px */
-    font-size: calc(15px * 0.533); /* 8px */
-    aspect-ratio: 1/1; /* 强制1:1 */
+    padding: 0.0417vw 0.0625vw;
+    font-size: 0.0781vw;
   }
   .opt {
-    font-size: calc(18px * 0.533); /* 10px */
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    font-size: 0.0938vw;
+    padding: 0 0.1042vw;
   }
   .opct {
-    font-size: calc(15px * 0.533); /* 8px */
+    font-size: 0.0781vw;
     line-height: 1.5;
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    padding: 0 0.1042vw;
   }
   .film-strip img {
-    width: calc(80px * 0.533); /* 43px */
+    width: 0.4167vw;
     height: auto;
-    aspect-ratio: 1/1; /* 1:1比例 */
   }
   .card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: calc(20px * 0.533); /* 11px */
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    gap: 0.1042vw;
+    padding: 0 0.1042vw;
   }
   .cardc {
-    font-size: calc(16px * 0.533); /* 9px */
+    font-size: 0.0833vw;
     line-height: 1.5;
-    max-width: 60vw; /* 1:1比例 */
+    max-width: 0.3125vw;
   }
   .ap {
-    max-width: 30vw; /* 1:1 */
+    max-width: 0.1563vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .if {
-    margin: calc(30px * 0.533) 0; /* 16px 0 */
-    padding: 0 calc(20px * 0.533); /* 0 11px */
-    width: 100vw;
+    margin: 0.1563vw 0;
+    padding: 0 0.1042vw;
   }
   .if1, .if2 {
     display: flex;
     align-items: center;
-    gap: calc(15px * 0.533); /* 8px */
-    margin-bottom: calc(15px * 0.533); /* 8px */
-    width: 100vw;
+    gap: 0.0781vw;
+    margin-bottom: 0.0781vw;
   }
   .polarbear, .penguin {
-    max-width: calc(80px * 0.533); /* 43px */
+    max-width: 0.4167vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .q, .a {
-    font-size: calc(18px * 0.533); /* 10px */
-    width: 100vw;
+    font-size: 0.0938vw;
   }
   .contact {
-    padding: 0 calc(20px * 0.533); /* 0 11px */
+    padding: 0 0.1042vw;
     text-align: center;
-    width: 100vw;
   }
   .Welcome {
-    font-size: calc(20px * 0.533); /* 11px */
-    margin-bottom: calc(10px * 0.533); /* 5px */
+    font-size: 0.1042vw;
+    margin-bottom: 0.0521vw;
   }
   .finger, .email {
-    max-width: calc(100px * 0.533); /* 53px */
+    max-width: 0.5208vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .footer-img {
-    height: calc(50px * 0.533); /* 27px */
-    width: auto;
-    aspect-ratio: 1/1;
+    height: 0.2604vw;
   }
   .footer-img-container {
-    gap: calc(20px * 0.533); /* 11px */
-    padding: 0 calc(15px * 0.533); /* 0 8px */
+    gap: 0.1042vw;
+    padding: 0 0.0781vw;
     display: flex;
     justify-content: center;
-    width: 100vw;
   }
   .footer-text {
-    font-size: calc(13px * 0.533); /* 7px */
-    width: 100vw;
+    font-size: 0.0677vw;
   }
 }
 
-/* 手机端（≤768px）：比例 768/1920 = 0.4 */
 @media (max-width: 768px) {
   .navbar {
-    height: calc(8vh * 0.9);
-    gap: 4vw; /* 5vw × 0.4 = 2vw → 调整为4vw更易读 */
+    height: 0.0741vw;
+    gap: 0.0260vw;
     justify-content: space-between;
-    padding: 0 calc(10px * 0.4); /* 0 4px */
+    padding: 0 0.0521vw;
     display: flex;
     align-items: center;
-    width: 100vw;
   }
   .logo {
-    height: calc(7vh * 0.9);
-    width: auto;
-    aspect-ratio: 1/1;
-    margin-left: calc(5px * 0.4); /* 2px */
+    height: 0.0648vw;
+    margin-left: 0.0260vw;
   }
   .nav-links {
-    gap: calc(2vw * 0.4); /* 0.8vw → 1vw */
+    gap: 0.0104vw;
     left: 0;
     display: flex;
     align-items: center;
-    width: auto;
   }
   .nav-item {
-    font-size: calc(14px * 0.4); /* 5.6→6px */
-    padding: calc(4px * 0.4) calc(8px * 0.4); /* 2px 3px */
+    font-size: 0.0729vw;
+    padding: 0.0208vw 0.0417vw;
     letter-spacing: 0;
-    min-height: calc(44px * 0.4); /* 17.6→18px */
+    min-height: 0.2292vw;
     display: inline-flex;
     align-items: center;
   }
@@ -305,172 +281,213 @@ footer {
     color: #2A3B4C;
   }
   .content {
-    margin-top: calc(8vh * 0.9);
-    padding: 0 calc(10px * 0.4); /* 0 4px */
-    width: 100vw;
+    margin-top: 0.0741vw;
+    padding: 0 0.0521vw;
   }
   .bigtitle {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: calc(10px * 0.4); /* 4px */
-    width: 100vw;
+    gap: 0.0521vw;
   }
   .cow, .map {
-    max-width: 45vw;
+    max-width: 0.2344vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .title {
-    font-size: calc(24px * 0.4); /* 9.6→10px */
-    width: 100vw;
+    font-size: 0.1250vw;
+    width: 100%;
     text-align: center;
-    margin: calc(15px * 0.4) 0; /* 6px 0 */
+    margin: 0.0781vw 0;
   }
   .whatt {
-    font-size: calc(20px * 0.4); /* 8px */
-    margin-bottom: calc(10px * 0.4); /* 4px */
+    font-size: 0.1042vw;
+    margin-bottom: 0.0521vw;
     text-align: center;
-    width: 100vw;
   }
   .whatc {
-    font-size: calc(14px * 0.4); /* 5.6→6px */
+    font-size: 0.0729vw;
     line-height: 1.4;
     white-space: normal;
-    width: 100vw;
   }
   .htut {
-    margin-top: calc(20px * 0.4); /* 8px */
-    width: 100vw;
+    margin-top: 0.1042vw;
   }
   .htut1 {
-    font-size: calc(18px * 0.4); /* 7.2→7px */
+    font-size: 0.0938vw;
     text-align: center;
-    width: 100vw;
   }
   .htut2 {
-    font-size: calc(20px * 0.4); /* 8px */
+    font-size: 0.1042vw;
     text-align: center;
-    width: 100vw;
   }
   .giraffe {
-    max-width: 50vw;
+    max-width: 0.2604vw;
     margin: 0 auto;
     display: block;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .damt {
-    font-size: calc(18px * 0.4); /* 7.2→7px */
-    margin: calc(15px * 0.4) 0 calc(10px * 0.4); /* 6px 0 4px */
+    font-size: 0.0938vw;
+    margin: 0.0781vw 0 0.0521vw;
     text-align: center;
-    width: 100vw;
   }
   .damcleadin {
-    font-size: calc(14px * 0.4); /* 5.6→6px */
-    margin-bottom: calc(10px * 0.4); /* 4px */
-    width: 100vw;
+    font-size: 0.0729vw;
+    margin-bottom: 0.0521vw;
   }
   .damc-container {
     display: flex;
     flex-wrap: wrap;
-    gap: calc(8px * 0.4); /* 3.2→3px */
-    padding: 0 calc(20px * 0.4); /* 0 8px */
-    width: 100vw;
+    gap: 0.0417vw;
+    padding: 0 0.1042vw;
   }
   .damc1, .damc2, .damc3, .damc4 {
-    width: 45vw;
-    padding: calc(6px * 0.4) calc(10px * 0.4); /* 2px 4px */
-    font-size: calc(14px * 0.4); /* 5.6→6px */
+    width: 0.2344vw;
+    padding: 0 0.0521vw;
+    font-size: 0.0729vw;
     text-align: center;
-    aspect-ratio: 1/1;
   }
   .opt {
-    font-size: calc(16px * 0.4); /* 6.4→6px */
+    font-size: 0.0833vw;
     text-align: center;
-    margin-bottom: calc(10px * 0.4); /* 4px */
-    width: 100vw;
+    margin-bottom: 0.0521vw;
   }
   .opct {
-    font-size: calc(14px * 0.4); /* 5.6→6px */
+    font-size: 0.0729vw;
     line-height: 1.4;
-    width: 100vw;
   }
   .film-strip {
     overflow-x: auto;
-    padding: calc(10px * 0.4) 0; /* 4px 0 */
+    padding: 0.0521vw 0;
     display: flex;
-    width: 100vw;
   }
   .film-strip img {
-    width: calc(70px * 0.4); /* 28px */
+    width: 0.3646vw;
     height: auto;
     flex-shrink: 0;
-    aspect-ratio: 1/1;
   }
   .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: calc(15px * 0.4); /* 6px */
-    padding: 0 calc(10px * 0.4); /* 0 4px */
-    width: 100vw;
+    gap: 0.0781vw;
+    padding: 0 0.0521vw;
   }
   .cardc {
-    font-size: calc(14px * 0.4); /* 5.6→6px */
+    font-size: 0.0729vw;
     line-height: 1.4;
-    max-width: 100vw;
+    max-width: 100%;
     text-align: center;
   }
   .ap {
-    max-width: 60vw;
+    max-width: 0.3125vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .if {
-    margin: calc(20px * 0.4) 0; /* 8px 0 */
-    padding: 0 calc(10px * 0.4); /* 0 4px */
-    width: 100vw;
+    margin: 0.1042vw 0;
+    padding: 0 0.0521vw;
   }
   .if1, .if2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: calc(10px * 0.4); /* 4px */
-    margin-bottom: calc(10px * 0.4); /* 4px */
+    gap: 0.0521vw;
+    margin-bottom: 0.0521vw;
     text-align: center;
-    width: 100vw;
   }
   .polarbear, .penguin {
-    max-width: calc(60px * 0.4); /* 24px */
+    max-width: 0.3125vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .q, .a {
-    font-size: calc(16px * 0.4); /* 6.4→6px */
-    width: 100vw;
+    font-size: 0.0833vw;
+    width: 100%;
   }
   .contact {
-    padding: 0 calc(10px * 0.4); /* 0 4px */
+    padding: 0 0.0521vw;
     text-align: center;
-    width: 100vw;
   }
   .Welcome {
-    font-size: calc(18px * 0.4); /* 7.2→7px */
-    margin-bottom: calc(8px * 0.4); /* 3.2→3px */
+    font-size: 0.0938vw;
+    margin-bottom: 0.0417vw;
   }
   .finger, .email {
-    max-width: calc(80px * 0.4); /* 32px */
+    max-width: 0.4167vw;
     height: auto;
-    aspect-ratio: 1/1;
   }
   .footer-img {
-    height: calc(40px * 0.4); /* 16px */
-    width: auto;
-    aspect-ratio: 1/1;
+    height: 0.2083vw;
   }
   .footer-img-container {
-    gap: calc(15px * 0.4); /*
+    gap: 0.0781vw;
+    padding: 0 0.0521vw;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-text {
+    font-size: 0.0625vw;
+    margin-top: 0.0521vw;
+  }
+  footer {
+    padding: 0.0781vw 0;
+    margin-top: 0.1563vw;
+  }
+}
 
-
-
+@media (max-width: 375px) {
+  .navbar {
+    height: 0.0648vw;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 0.0556vw;
+  }
+  .nav-item {
+    font-size: 0.0625vw;
+    padding: 0.0156vw 0.0313vw;
+  }
+  .title {
+    font-size: 0.0938vw;
+  }
+  .whatt {
+    font-size: 0.0938vw;
+  }
+  .whatc {
+    font-size: 0.0677vw;
+  }
+  .htut2 {
+    font-size: 0.0938vw;
+  }
+  .damc1, .damc2, .damc3, .damc4 {
+    width: 100%;
+    margin-bottom: 0.0417vw;
+  }
+  .film-strip img {
+    width: 0.3125vw;
+  }
+  .cardc {
+    font-size: 0.0677vw;
+  }
+  .ap {
+    max-width: 0.3646vw;
+    height: auto;
+  }
+  .q, .a {
+    font-size: 0.0729vw;
+  }
+  .Welcome {
+    font-size: 0.0833vw;
+  }
+  .finger, .email {
+    max-width: 0.3646vw;
+    height: auto;
+  }
+  .footer-img {
+    height: 0.1823vw;
+  }
+  .footer-img-container {
+    gap: 0.0521vw;
+  }
+}
