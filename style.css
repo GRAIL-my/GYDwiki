@@ -100,3 +100,39 @@ footer {
 
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding: 10px 15px;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .logo { height: 60px; }
+  .nav-item { font-size: 14px; padding: 5px 8px; }
+  body { padding-top: 80px; overflow-x: hidden; }
+  img { max-width: 100%; height: auto; }
+  .content { padding: 0 10px; }
+  .footer-img-container { gap: 10px; }
+  .footer-img { height: 40px; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    height: auto;
+    padding: 10px 20px;
+    gap: 10vw;
+  }
+  .logo { height: 80px; }
+  .nav-item { font-size: 16px; }
+  body { padding-top: 100px; overflow-x: hidden; }
+  img { max-width: 100%; height: auto; }
+  .content { padding: 0 20px; }
+  .footer-img-container { gap: 20px; }
+  .footer-img { height: 50px; }
+}
+
+@media (min-width: 1025px) {
+  
+}
+
+
